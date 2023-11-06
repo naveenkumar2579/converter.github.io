@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="convert.css">
+</head>
+<body>
+    <div class="a">
+        <div>
+            <h1>CONVERTER</h1>
+        </div>
+        <div class="b">
+            <input type="text" id="input" placeholder="lenth in foot">
+           <div>
+            <br>
+               <button  type="submit" onclick="convert()">
+                convert to inches
+                </button>
+           </div>
+            <div id="result">
+                
+
+            </div>
+        </div>
+        <script>
+            function convert(){
+                let foot = Number(document.getElementById("input").value)
+                let cm =  foot*12
+                let result = document.getElementById("result")
+                result.innerHTML= cm.toFixed(0)+"inches"
+
+            }
+            
+        </script>
+        
+    </div>
+    
+</body>
+</html>

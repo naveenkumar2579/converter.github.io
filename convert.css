@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(119, 119, 189);
+}
+h1{
+    margin-left: 0px;
+    color: coral;
+    
+}
+.a{
+    /* display: grid; */
+    /* grid-template-columns: column; */
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10%;
+    border-radius: 10%;
+    margin: 150px;
+   
+
+}
+input{
+    size: 10px;
+    border: 2px solid;
+    outline: 4px solid blue;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5%;
+}
+button{
+    padding: 5px;
+    margin-left: 45px;
+    background-color: burlywood;
+
+
+}
+#result{
+    margin-left:45px ;
+    font-size: 30px;
+    padding: 10px;
+}
